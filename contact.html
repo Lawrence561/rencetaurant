@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Contact Us - Cooking Delight</title>
+</head>
+
+<style>
+
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+/* Header */
+header {
+    background-color: #4CAF50;
+    padding: 1rem;
+    text-align: center;
+    color: white;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.logo {
+    width: 50px;
+    height: 50px;
+}
+
+.nav-menu {
+    list-style: none;
+    padding: 0;
+    margin: 1rem 0 0;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.nav-menu li {
+    display: inline;
+}
+
+.nav-menu a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+}
+
+.nav-menu a:hover {
+    background-color: #45a049;
+}
+
+/* Introduction Statement */
+.introduction-statement {
+    text-align: center;
+    margin: 2rem auto;
+    font-size: 1.2rem;
+    color: #4CAF50;
+}
+
+/* Contact Methods */
+.contact-methods {
+    text-align: center;
+    margin: 2rem auto;
+    max-width: 70%;
+    line-height: 1.6;
+}
+
+.contact-methods h2 {
+    color: #4CAF50;
+}
+
+/* Binalatongan Community College Section */
+.college-info {
+    text-align: center;
+    margin: 2rem auto;
+    max-width: 70%;
+    line-height: 1.6;
+}
+
+.college-info h2 {
+    color: #4CAF50;
+}
+
+.map-container {
+    margin-top: 1rem;
+    text-align: center;
+}
+
+iframe {
+    max-width: 100%;
+    height: auto;
+    border: 0;
+    border-radius: 10px;
+}
+
+/* Footer */
+footer {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 2rem;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .logo-container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    iframe {
+        height: 300px;
+    }
+}
+
+
+</style>
+
+<body>
+    <header>
+        <div class="logo-container">
+            <img src="picture/logo.png" alt="Cooking Delight Logo" class="logo">
+            <h1><i>RENCETAURANT</i></h1>
+        </div>
+        <nav>
+            <ul class="nav-menu">
+                <li><a href="home.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+                <li><a href="main.html">Main Page</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Introduction Statement Section -->
+        <section class="introduction-statement">
+            <p><em><strong>Have a question, suggestion, or feedback? We'd love to hear from you!</strong></em></p>
+        </section>
+
+        <!-- Contact Methods Section -->
+        <section class="contact-methods">
+            <h2>Contact Us</h2>
+            <p><strong>Email:</strong> <a href="lawrencevinluan0@gmail.com">lawrencevinluan0@gmail.com</a></p>
+            <p><strong>Mobile:</strong> 09727185842</p>
+            <p><strong>Follow us:</strong> 
+                <a href="https://www.facebook.com/vinluan.vinluan.547">Facebook</a>
+            </p>
+        </section>
+
+        <!-- Binalatongan Community College Section -->
+        <section class="college-info">
+            <h2>Binalatongan Community College</h2>
+            <p><strong>Address:</strong> Ilang, San Carlos City, Pangasinan, Philippines</p>
+            <div class="map-container">
+                <!-- Embed Google Map -->
+                <iframe 
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3091.655382468526!2d120.34968474697808!3d15.979445978840116!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33914e9474b204a9%3A0x6e4e6ad7383c40b5!2sBinalatongan%20Community%20College!5e0!3m2!1sen!2sph!4v1679065425783!5m2!1sen!2sph" 
+                    width="600" 
+                    height="450" 
+                    style="border:0;" 
+                    allowfullscreen="" 
+                    loading="lazy" 
+                    referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>Web Developer: Lawrence R. Vinluan</p>
+        <p>Contact: <a href="lawrencevinluan0@gmail.com">lawrencevinluan0@gmail.com</a> | Mobile: 09727185842</p>
+        <p>Follow us: 
+            <a href="https://www.facebook.com/vinluan.vinluan.547">Facebook</a>
+        </p>
+    </footer>
+</body>
+</html>
